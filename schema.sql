@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS conversations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL DEFAULT 'New Conversation',
+    messages TEXT NOT NULL
+);
